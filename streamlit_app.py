@@ -58,3 +58,6 @@ streamlit.dataframe(my_data_rows)
 #second section to display fruity vice api response
 add_my_fruit = streamlit.text_input('What fruit would you like information about?','jackfruit')
 streamlit.write('The user entered ', add_my_fruit)
+
+steamlit.write('Thanks for adding', add_my_fruit)
+my_cur.execute("insert into fruit load list values ('from streamlit')")
